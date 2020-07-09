@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="135sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginLeft="15sp"
+    android:layout_marginRight="15sp">
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10sp" />
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="115sp"
+    android:background="#F2F2F2"
+    app:cardCornerRadius="10sp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:src="@drawable/news_icon"
+            android:id="@+id/imgId"/>
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.4"
+            android:background="#786DD5FA"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:id="@+id/textViewId"
+            android:text="hello"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10sp" />
+
+</LinearLayout>

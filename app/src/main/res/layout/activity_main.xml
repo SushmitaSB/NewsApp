@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/news"
+    android:padding="20sp"
+    android:orientation="vertical"
+    tools:context=".views.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="20sp"
+        android:textColor="#c31432"
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:id="@+id/userNameId"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_button"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <com.google.android.gms.common.SignInButton
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/google_login_button"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:visibility="gone"
+            android:text="Signout"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:id="@+id/signoutId"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#1565C0"
+        android:textStyle="bold"
+        android:id="@+id/loginText"
+        android:text="Login or SignIn to enter inside the app"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginBottom="0sp"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:id="@+id/btId"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+        android:visibility="gone"
+        />
+
+
+
+
+</LinearLayout>
