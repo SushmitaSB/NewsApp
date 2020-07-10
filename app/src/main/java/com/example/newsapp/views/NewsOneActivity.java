@@ -56,6 +56,9 @@ public class NewsOneActivity extends AppCompatActivity {
         snackbar = Snackbar.make(linearLayout, "Double click to view news", Snackbar.LENGTH_LONG);
         snackbar.setBackgroundTint(ContextCompat.getColor(this, R.color.colorPrimaryDark));
         snackbar.show();
+
+        //I changed the code
+        //Second change for branch
    }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
