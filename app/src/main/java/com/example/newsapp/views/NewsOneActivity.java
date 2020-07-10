@@ -57,7 +57,8 @@ public class NewsOneActivity extends AppCompatActivity {
         snackbar.setBackgroundTint(ContextCompat.getColor(this, R.color.colorPrimaryDark));
         snackbar.show();
 
-        //I changed the code 
+        //I changed the code
+        //Second change for branch
    }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
